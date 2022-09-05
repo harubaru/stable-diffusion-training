@@ -106,7 +106,7 @@ def run_demo(
         outputs=output,
         )
     # demo.queue()
-    demo.launch(share=False, server_name="0.0.0.0")
+    demo.launch(share=True, server_name="0.0.0.0")
 
 if __name__ == "__main__":
     fire.Fire(run_demo)
