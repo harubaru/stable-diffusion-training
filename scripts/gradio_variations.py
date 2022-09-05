@@ -76,8 +76,8 @@ def main(
 
 def run_demo(
     device_idx=0,
-    ckpt="models/ldm/stable-diffusion-v1/sd-clip-vit-l14-img-embed_ema_only.ckpt",
-    config="configs/stable-diffusion/sd-image-condition-finetune.yaml",
+    ckpt="stable-diffusion-training/models/ldm/stable-diffusion-v1/sd-clip-vit-l14-img-embed_ema_only.ckpt",
+    config="stable-diffusion-training/configs/stable-diffusion/sd-image-condition-finetune.yaml",
     ):
 
     device = f"cuda:{device_idx}"
